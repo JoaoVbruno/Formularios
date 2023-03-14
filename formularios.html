@@ -96,7 +96,16 @@ Natureza do cargo:
         </fieldset>
         <div class="botoes">
             <button class="botao"> Enviar</button>
-            <button class="botao"> Limpar</button>
+            <button onclick="LimpaTudo ();" class="botao">Limpar</button>
         </div>
 </body>
+    <script>
+            function LimpaTudo(){
+                nome.value="";
+                endereco.value="";
+                cidade.value="";
+                estado.value="";
+
+            }
+    </script>
 </html>
