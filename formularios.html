@@ -38,8 +38,13 @@
     margin-left: 20px; /*afasta os botões*/
     width: 80px;
     height: 45px;
-    background-image: linear-gradient(to bottom, yellow, orange, red);
+  
     font-size: 12px;
+  }
+  .botao:hover
+  {
+    background-color: rgb(171, 230, 230);
+    color:black
   }
 </style>
 </head>
@@ -100,24 +105,26 @@ Natureza do cargo:
         </div>
 </body>
     <script>
-            function LimpaTudo(){
+            function LimpaTudo()
+            {
                 nome.value="";
                 endereco.value="";
                 cidade.value="";
                 estado.value="";
                 curriculo.value="";
+                
                 gerencia.checked=false;
                 financeiro.checked=false;
-                recepcao.checked=false;
-                administrativo.checked=false;
-                juridico.checked=false;
+                Recepcao.checked=false;
+                Administrativo.checked=false;
+                Juridico.checked=false;
                 Ti.checked=false;
                 producao.checked=false;
                 biologia.checked=false;
                 Meio_ambiente.checked=false;
                 historia.checked=false;
                 engenharia.checked=false;
-                
+
 
 
             }
